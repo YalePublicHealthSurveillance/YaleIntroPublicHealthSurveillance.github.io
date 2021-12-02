@@ -1,75 +1,141 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="pandoc" />
 
-<head>
+    
+    
+    <title>Workshop on the evaluation of vaccine impact</title>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
+        <script src="index_files/header-attrs-2.10/header-attrs.js"></script>
+        <script src="index_files/jquery-1.11.3/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="index_files/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="index_files/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        <script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+        <script src="index_files/navigation-1.1/tabsets.js"></script>
+        <script src="index_files/navigation-1.1/codefolding.js"></script>
+        <link href="index_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
+        <script src="index_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
+        <link href="index_files/readthedown-0.1/readthedown.css" rel="stylesheet" />
+        <link href="index_files/readthedown-0.1/readthedown_fonts_embed.css" rel="stylesheet" />
+        <script src="index_files/readthedown-0.1/readthedown.js"></script>
+    
+    
+    
+        <link rel="stylesheet" href="stylesreadthedown.css" type="text/css" />
+    
+    <!-- tabsets -->
+    <script>
+      $(document).ready(function () {
+	  window.buildTabsets("toc");
+      });
+      $(document).ready(function () {
+	  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+	      $(this).parent().toggleClass('nav-tabs-open')
+	  });
+      });
+    </script>
 
+    <!-- code folding -->
+        <script>
+      $(document).ready(function () {
+	  	  	  window.initializeCodeFolding("hide" === "show");
+	        });
+    </script>
+    
+    <!-- code download -->
+    
+    <!-- tabsets dropdown -->
 
+    <style type="text/css">
+      .tabset-dropdown > .nav-tabs {
+	  display: inline-table;
+	  max-height: 500px;
+	  min-height: 44px;
+	  overflow-y: auto;
+	  background: white;
+	  border: 1px solid #ddd;
+	  border-radius: 4px;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+	  content: "&#xe258;";
+	  border: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active {
+	  display: block;
+      }
 
-<title>Workshop on the evaluation of vaccine impact</title>
+      .tabset-dropdown > .nav-tabs > li.active a {
+  	  padding: 0 15px !important;
+      }
 
-<script src="index_files/header-attrs-2.10/header-attrs.js"></script>
-<script src="index_files/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="index_files/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-<script src="index_files/bootstrap-3.3.6/js/bootstrap.min.js"></script>
-<script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<script src="index_files/navigation-1.1/tabsets.js"></script>
-<script src="index_files/navigation-1.1/codefolding.js"></script>
-<link href="index_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
-<script src="index_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
-<link href="index_files/readthedown-0.1/readthedown.css" rel="stylesheet" />
-<script src="index_files/readthedown-0.1/readthedown.js"></script>
-
-
-
-<link rel="stylesheet" href="stylesreadthedown.css" type="text/css" />
-
+      .tabset-dropdown > .nav-tabs > li > a,
+      .tabset-dropdown > .nav-tabs > li > a:focus,
+      .tabset-dropdown > .nav-tabs > li > a:hover {
+	  border: none;
+	  display: inline-block;
+	  border-radius: 4px;
+	  background-color: transparent;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+	  display: block;
+	  float: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li {
+	  display: none;
+	  margin-left: 0 !important;
+      }
+    </style>
+    
 </head>
 
-<body>
+<body class="preload">
 
-
-<div id="content" data-toggle="wy-nav-shift">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
-
-<nav id="nav-top" role="navigation" aria-label="top navigation">
-    <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-</nav>
-
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="text-muted">Code</span> <span class="text-muted caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All</a></li>
-</ul>
-</div>
-
-<div id="header">
-<h1 class="title">Workshop on the evaluation of vaccine impact</h1>
-</div>
-
-
-<div id="table-of-contents">
+   	
+         <!-- readthedown start -->   
+   <div id="content" data-toggle="wy-nav-shift">
+     <nav id="nav-top" role="navigation" aria-label="top navigation">
+       <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+     </nav>
+         
+      <div class="btn-group pull-right">
+     <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+     <ul class="dropdown-menu" style="min-width: 50px;">
+	    	    <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+	    <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+	    	    	         </ul>
+   </div>
+   
+        
+      <h1 class="title">Workshop on the evaluation of vaccine impact</h1>
+      
+         <!-- readthedown authors -->
+   <div id="sidebar">
     <h2><a href="#content">Workshop on the evaluation of vaccine impact</a></h2>
-    <div id="text-table-of-contents">
+    <div id="toc">
       <ul>
       <li><a href="#topics-covered-in-the-workshop">Topics covered in the workshop</a></li>
       <li><a href="#workshop-learning-objectives">Workshop learning objectives</a></li>
@@ -90,13 +156,28 @@ $(document).ready(function () {
       </ul></li>
       <li><a href="#course-materials">Course materials</a>
       <ul>
-      <li><a href="#session-0-introduction-to-r">Session 0: Introduction to R</a></li>
+      <li><a href="#hands-on-introduction-to-r">Hands on: Introduction to R</a></li>
+      <li><a href="#recorded-presentation-what-is-vaccine-impact">Recorded Presentation: What is ‘vaccine impact’?</a></li>
+      <li><a href="#recorded-presentation-administrative-data-challenges-and-opportunities-for-evaluation-studies">Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies</a></li>
+      <li><a href="#live-session-1-data-wrangling">Live session 1: Data Wrangling</a></li>
+      <li><a href="#recorded-presentation-interrupted-time-series-analysis">Recorded presentation: Interrupted time series analysis</a></li>
+      <li><a href="#live-session-2-trend-analysis-and-interrupted-time-series-analysis">Live session 2: Trend analysis and interrupted time series analysis</a></li>
+      <li><a href="#live-session-3-case-study-pcv-impact-in-the-gambia">Live session 3: Case study: PCV impact in The Gambia</a></li>
+      <li><a href="#recorded-presentation-using-controls-and-synthetic-controls">Recorded presentation: Using controls and synthetic controls</a></li>
+      <li><a href="#live-session-4-synthetic-controls-analysis-case-study-south-africa-presenting-results-and-dealing-with-uncertainty">Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty</a></li>
       </ul></li>
-      <li><a href="#acknowledgements">Acknowledgements</a></li>
+      <li><a href="#acknowledgments">Acknowledgments</a></li>
       </ul>
     </div>
-</div>
+    <div id="postamble" data-toggle="wy-nav-shift" class="status">
+                </div>
+   </div>
+     
 
+   
+      
+   
+<!-- Don't indent these lines or it will mess pre blocks indentation --> 
 <div id="main">
 <p>This workshop will be focused on quantitative methods for the evaluation of vaccine impact, with a particular focus on the use of routinely collected administrative data (e.g., hospitalizations, deaths). This workshop will be held virtually in January 2022 and will include both live and recorded material. Didactic presentations will introduce different types of analyses, such as interrupted time series and synthetic controls methods and their strengths and weaknesses. Hand-on sessions will focus on data management and manipulation; analysis and interpretation of aggregate time series data, and presentation of results.</p>
 <p><strong>This workshop is intended for data analysts, practitioners, and students who are performing evaluations of the impact of vaccines and other public health interventions using time series data</strong></p>
@@ -156,7 +237,7 @@ $(document).ready(function () {
 <div id="how-to-navigate-the-course" class="section level3">
 <h3>How to navigate the course</h3>
 <ol style="list-style-type: decimal">
-<li><p>For R novices only: complete the recorded inroduction to R session video and the accompanying tutorial</p></li>
+<li><p>For R novices only: complete the recorded introduction to R session video and the accompanying tutorial</p></li>
 <li><p>Watch the recorded video on Microsoft Stream prior to the lives sessions to obtain background on the topic</p></li>
 </ol>
 <p>3a) If you were selected to attend the live sessions, log onto ZOOm at the designated time and follow along with rstudio.cloud</p>
@@ -164,7 +245,7 @@ $(document).ready(function () {
 </div>
 <div id="schedule-for-live-sessions" class="section level3">
 <h3>Schedule for live sessions</h3>
-<p><img src="C:/Users/dmw63/AppData/Local/rstudio/tmp/paste-D1C83DCF.png" /></p>
+<p><img src="C:/Users/dmw63/AppData/Local/RStudio/tmp/paste-D1C83DCF.png" /></p>
 </div>
 </div>
 <div id="getting-started" class="section level2">
@@ -198,55 +279,102 @@ $(document).ready(function () {
 </div>
 <div id="course-materials" class="section level2">
 <h2>Course materials</h2>
-<div id="session-0-introduction-to-r" class="section level3">
-<h3>Session 0: Introduction to R</h3>
+<div id="hands-on-introduction-to-r" class="section level3">
+<h3>Hands on: Introduction to R</h3>
+<p>-this optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface</p>
 <ul>
 <li><p>Watch this Video to orient you to RStudio and the R programming language</p></li>
 <li><p>Navigate to Session-0-Intro-to-R on the RStudio Cloud work space</p></li>
-<li></li>
-<li></li>
 </ul>
 </div>
+<div id="recorded-presentation-what-is-vaccine-impact" class="section level3">
+<h3>Recorded Presentation: What is ‘vaccine impact’?</h3>
+<p>-In this brief video, we will discuss ways to evaluate the effects of vaccines and the distinctions between different metrics</p>
 </div>
-<div id="acknowledgements" class="section level2">
-<h2>Acknowledgements</h2>
+<div id="recorded-presentation-administrative-data-challenges-and-opportunities-for-evaluation-studies" class="section level3">
+<h3>Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies</h3>
+<p>-In this brief video, we will discuss types of administrative data and sources for these types of data, along with limitations of this type of data</p>
+</div>
+<div id="live-session-1-data-wrangling" class="section level3">
+<h3>Live session 1: Data Wrangling</h3>
+<p>-In this hands on session, we will start with a database of individual-level administrative data, create time series, and do some basic visualization</p>
+</div>
+<div id="recorded-presentation-interrupted-time-series-analysis" class="section level3">
+<h3>Recorded presentation: Interrupted time series analysis</h3>
+<p>In this presentation, we will discuss:</p>
+<ul>
+<li><p>The goals for interrupted time series analysis</p></li>
+<li><p>Different approaches for using ITS</p></li>
+<li><p>Critical evaluation of ITS methods</p></li>
+</ul>
+</div>
+<div id="live-session-2-trend-analysis-and-interrupted-time-series-analysis" class="section level3">
+<h3>Live session 2: Trend analysis and interrupted time series analysis</h3>
+</div>
+<div id="live-session-3-case-study-pcv-impact-in-the-gambia" class="section level3">
+<h3>Live session 3: Case study: PCV impact in The Gambia</h3>
+<p>In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia</p>
+</div>
+<div id="recorded-presentation-using-controls-and-synthetic-controls" class="section level3">
+<h3>Recorded presentation: Using controls and synthetic controls</h3>
+<p>-In this video, we will discuss:</p>
+<ul>
+<li><p>The goals for using control outcomes or control covariates</p></li>
+<li><p>Different approaches that are used for incorporating controls into your analyses</p></li>
+<li><p>Criteria for selecting candidate controls</p></li>
+<li><p>Synthetic controls methodology</p></li>
+</ul>
+</div>
+<div id="live-session-4-synthetic-controls-analysis-case-study-south-africa-presenting-results-and-dealing-with-uncertainty" class="section level3">
+<h3>Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty</h3>
+</div>
+</div>
+<div id="acknowledgments" class="section level2">
+<h2>Acknowledgments</h2>
 <ul>
 <li><p>The development of this course was supported by the Bill and Melinda Gates Foundation.</p></li>
 <li><p>The course will be led by Dan Weinberger, PhD; Associate Professor of Epidemiology at Yale School of Public Health.</p></li>
 <li><p>The material in this workshop was jointly developed with</p>
 <ul>
 <li><p>Dr. Kayoko Shioda (Yale/Emory)</p></li>
+<li><p>Iris Artin</p></li>
 <li><p>Dr Cristiana Toscano (PAHO/Universidade Federal de Goiás)</p></li>
 <li><p>Dr. Lucia Oliveria (PAHO)</p></li>
 <li><p>Dr. Jackie Kleynhans (NICD/South Africa)</p></li>
 <li><p>Dr. Nuredin Mohammed (MRC/Gambia)</p></li>
+<li><p>Dr. Lone Simonsen (Roskilde)</p></li>
+<li><p>Dr. Rob Taylor (Sage Analytica)</p></li>
+<li><p>Dr. Christian Bruhn</p></li>
+<li><p>The WHO working group on the use of administrative data to evaluate PCV impact (Fernanda Lessa (CDC), Jennifer Loo Farrar (CDC), Tomoka Nakamura (WHO), Adam Cohen (WHO/CDC)</p></li>
 </ul></li>
 </ul>
 </div>
 </div>
 
+   
+   
+            
+      
 
-</div>
+  <script>
+    $(document).ready(function () {
 
-<div id="postamble" data-toggle="wy-nav-shift" class="status">
-</div>
-
-
-<script>
-$(document).ready(function () {
- 	  });
-</script>
+			
+ 		
+	    });
+  </script>
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
+    <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+	document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+  
 </body>
 </html>

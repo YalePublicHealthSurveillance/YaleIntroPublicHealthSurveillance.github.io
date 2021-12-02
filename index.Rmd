@@ -69,7 +69,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ### How to navigate the course
 
-1)  For R novices only: complete the recorded inroduction to R session video and the accompanying tutorial
+1)  For R novices only: complete the recorded introduction to R session video and the accompanying tutorial
 
 2)  Watch the recorded video on Microsoft Stream prior to the lives sessions to obtain background on the topic
 
@@ -119,11 +119,47 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 -   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
 
-    ### Recorded Presentation: Evaluating vaccine impact   
+### Recorded Presentation: What is 'vaccine impact'? 
 
-### Recorded Presentation: Challenges 
+-In this brief video, we will discuss ways to evaluate the effects of vaccines and the distinctions between different metrics
 
-## \#\#\# Video: Data Wrangling
+### Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies
+
+-In this brief video, we will discuss types of administrative data and sources for these types of data, along with limitations of this type of data
+
+### Live session 1: Data Wrangling
+
+-In this hands on session, we will start with a database of individual-level administrative data, create time series, and do some basic visualization
+
+### Recorded presentation: Interrupted time series analysis
+
+In this presentation, we will discuss:
+
+-   The goals for interrupted time series analysis
+
+-   Different approaches for using ITS
+
+-   Critical evaluation of ITS methods
+
+### Live session 2: Trend analysis and interrupted time series analysis
+
+### Live session 3: Case study: PCV impact in The Gambia
+
+In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia
+
+### Recorded presentation: Using controls and synthetic controls
+
+-In this video, we will discuss:
+
+-   The goals for using control outcomes or control covariates
+
+-   Different approaches that are used for incorporating controls into your analyses
+
+-   Criteria for selecting candidate controls
+
+-   Synthetic controls methodology
+
+### Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
 
 ## Acknowledgments
 
