@@ -111,7 +111,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ## Course materials
 
-### Hands on: Introduction to R
+### 1. Hands on: Introduction to R
 
 -this optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
@@ -119,19 +119,19 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 -   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
 
-### Recorded Presentation: What is 'vaccine impact'?
+### 2. Recorded Presentation: What is 'vaccine impact'?
 
 -In this brief video, we will discuss ways to evaluate the effects of vaccines and the distinctions between different metrics
 
-### Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies
+### 3. Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies
 
 -In this brief video, we will discuss types of administrative data and sources for these types of data, along with limitations of this type of data
 
-### Live session 1: Data Wrangling
+### 4. Live session 1: Data Wrangling
 
 -In this hands on session, we will start with a database of individual-level administrative data, create time series, and do some basic visualization
 
-### Recorded presentation: Interrupted time series analysis
+### 5. Recorded presentation: Interrupted time series analysis
 
 In this presentation, we will discuss:
 
@@ -141,13 +141,13 @@ In this presentation, we will discuss:
 
 -   Critical evaluation of ITS methods
 
-### Live session 2: Trend analysis and interrupted time series analysis
+### 6. Live session 2: Trend analysis and interrupted time series analysis
 
-### Live session 3: Case study: PCV impact in The Gambia
+### 7. Live session 3: Case study: PCV impact in The Gambia
 
 In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia
 
-### Recorded presentation: Using controls and synthetic controls
+### 8. Recorded presentation: Using controls and synthetic controls
 
 -In this video, we will discuss:
 
@@ -159,7 +159,7 @@ In this live session, we will go through an example of applying interrupted time
 
 -   Synthetic controls methodology
 
-### Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
+### 9. Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
 
 ## Acknowledgments
 
