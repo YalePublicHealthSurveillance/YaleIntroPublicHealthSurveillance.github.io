@@ -111,17 +111,21 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ## Course materials
 
-### Session 0: Introduction to R
+### Hands on: Introduction to R
+
+-this optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
 -   Watch this Video to orient you to RStudio and the R programming language
 
 -   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
 
--   
+    ### Recorded Presentation: Evaluating vaccine impact   
 
--   
+### Recorded Presentation: Challenges 
 
-## Acknowledgements
+## \#\#\# Video: Data Wrangling
+
+## Acknowledgments
 
 -   The development of this course was supported by the Bill and Melinda Gates Foundation.
 
@@ -131,6 +135,8 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
     -   Dr. Kayoko Shioda (Yale/Emory)
 
+    -   Iris Artin
+
     -   Dr Cristiana Toscano (PAHO/Universidade Federal de Goiás)
 
     -   Dr. Lucia Oliveria (PAHO)
@@ -138,3 +144,11 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
     -   Dr. Jackie Kleynhans (NICD/South Africa)
 
     -   Dr. Nuredin Mohammed (MRC/Gambia)
+
+    -   Dr. Lone Simonsen (Roskilde)
+
+    -   Dr. Rob Taylor (Sage Analytica)
+
+    -   Dr. Christian Bruhn
+
+    -   The WHO working group on the use of administrative data to evaluate PCV impact (Fernanda Lessa (CDC), Jennifer Loo Farrar (CDC), Tomoka Nakamura (WHO), Adam Cohen (WHO/CDC)
