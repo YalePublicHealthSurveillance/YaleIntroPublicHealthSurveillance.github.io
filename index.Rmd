@@ -1,0 +1,140 @@
+---
+title: "Workshop on the evaluation of vaccine impact"
+output:
+  rmdformats::readthedown:
+    code_folding: hide
+    css: ./stylesreadthedown.css
+    lightbox: no
+    self_contained: no
+    thumbnails: no
+    toc_depth: '3'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+This workshop will be focused on quantitative methods for the evaluation of vaccine impact, with a particular focus on the use of routinely collected administrative data (e.g., hospitalizations, deaths). This workshop will be held virtually in January 2022 and will include both live and recorded material. Didactic presentations will introduce different types of analyses, such as interrupted time series and synthetic controls methods and their strengths and weaknesses. Hand-on sessions will focus on data management and manipulation; analysis and interpretation of aggregate time series data, and presentation of results.
+
+**This workshop is intended for data analysts, practitioners, and students who are performing evaluations of the impact of vaccines and other public health interventions using time series data**
+
+## Topics covered in the workshop
+
+-   Optional Introduction fo R
+
+-   Background on the use of administrative data and potential pitfalls
+
+-   Interrupted time series analysis
+
+-   Use of controls and synthetic controls
+
+-   Presenting your findings and managing uncertainty
+
+## Workshop learning objectives
+
+-   To understand the strengths and weaknesses of routinely collected administrative data
+
+-   To distinguish between vaccine impact and vaccine effectiveness studies
+
+-   To critically evaluate different methods for evaluating vaccine impact
+
+-   To format and analyze real world time series data
+
+## 
+
+## Course logistics
+
+### Prerequisites
+
+-   Knowledge of basic statistics (e.g., regression)
+
+-   Familiarity with R is recommended but not required
+
+### Structure of the course
+
+-   Recorded didactic presentations
+
+-   "Live" interactive data analysis sessions via RStudio Cloud and ZOOM, with recordings archived on Microsoft Stream
+
+    -   Accessibility: automatic English subtitles will be used on recorded videos
+
+### Course textbook
+
+-   This workshop will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
+
+### Communication
+
+-   Please join the Slack workspace for this course to participate in discussions about course material
+
+### How to navigate the course
+
+1)  For R novices only: complete the recorded inroduction to R session video and the accompanying tutorial
+
+2)  Watch the recorded video on Microsoft Stream prior to the lives sessions to obtain background on the topic
+
+3a) If you were selected to attend the live sessions, log onto ZOOm at the designated time and follow along with rstudio.cloud
+
+3b) If you were not selected to attend the live session, view the recordings at a later time on Microsoft stream
+
+### Schedule for live sessions
+
+![](C:/Users/dmw63/AppData/Local/RStudio/tmp/paste-D1C83DCF.png)
+
+## Getting started
+
+### For novices:
+
+-   Create a free account on <https://rstudio.cloud> This is a web-based version of RStudio, with all packages, data, and code pre-loaded![](){width="Infinity" height="3"}
+
+![](Slides/GETTING%20STARTED/Slide2.JPG){width="346"}
+
+-   Step 2: Join the Vaccine Evaluation Course workspace by clicking this [link](https://rstudio.cloud/spaces/154746/join?access_code=5dTVayuwfwSP1FV2N1iISxhL9smlamBtZhHqq%2BX4)
+
+-   Step 3: Access the Vaccine Evaluation Course Workspace
+
+    ![](Slides/GETTING%20STARTED/Slide4.JPG){width="580"}
+
+![](Slides/GETTING%20STARTED/Slide5.JPG){width="580"}
+
+-   
+
+    4)  Open a project by clicking on its name. For example: 'Session-0-Intro-to-R'
+
+    ![](Slides/GETTING%20STARTED/Slide7.JPG){width="580"}
+
+### For advanced users:
+
+-   Run the workshop materials on your local machine on RStudio. All workshop materials are provided as a set of RProjects, which can be access from <https://github.com/orgs/VaccineEvaluationWorkshop>
+
+-   You can either directly download and then open the projects on your computer by clicking the .rproj file in the corresponding directory, or you can download via Git, if installed on your computer
+
+## Course materials
+
+### Session 0: Introduction to R
+
+-   Watch this Video to orient you to RStudio and the R programming language
+
+-   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
+
+-   
+
+-   
+
+## Acknowledgements
+
+-   The development of this course was supported by the Bill and Melinda Gates Foundation.
+
+-   The course will be led by Dan Weinberger, PhD; Associate Professor of Epidemiology at Yale School of Public Health.
+
+-   The material in this workshop was jointly developed with
+
+    -   Dr. Kayoko Shioda (Yale/Emory)
+
+    -   Dr Cristiana Toscano (PAHO/Universidade Federal de Goiás)
+
+    -   Dr. Lucia Oliveria (PAHO)
+
+    -   Dr. Jackie Kleynhans (NICD/South Africa)
+
+    -   Dr. Nuredin Mohammed (MRC/Gambia)
