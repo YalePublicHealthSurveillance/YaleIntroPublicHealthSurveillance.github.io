@@ -119,7 +119,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 -   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
 
-### Recorded Presentation: What is 'vaccine impact'? 
+### Recorded Presentation: What is 'vaccine impact'?
 
 -In this brief video, we will discuss ways to evaluate the effects of vaccines and the distinctions between different metrics
 
