@@ -1,3 +1,36 @@
+/* Palette : https://coolors.co/211103-3d1308-7b0d1e-9f2042-f8e5ee */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Lato.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/LatoBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/LatoItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/RobotoSlab-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/RobotoSlab-Bold.ttf) format('truetype');
+}
+
 
 /* Nav pills */
 
@@ -48,7 +81,6 @@ img.image-lb {
 .figure {
     margin: 5px 10px 30px 0px;
     display: table;
-    text-align: center;
 }
 
 .figure img {
@@ -56,6 +88,7 @@ img.image-lb {
 }
 
 .figure p.caption {
+    text-align: center;
     font-style: italic;
     font-size: 90%;
 }
@@ -74,14 +107,6 @@ img.image-lb {
   font-size: 90%;
 }
 
-.pagedtable-index-current {
-  font-weight: bold;
-}
-
-#main a.anchor-section {
-    color: #BBB;
-}
-
 /* General styling */
 
 h1,h2,h3,h4,h5,h6,legend{
@@ -91,54 +116,47 @@ h1,h2,h3,h4,h5,h6,legend{
 }
 
 h1{
-    font-size:2rem;
+    font-size:200%;
     margin-top: 1em;
     margin-bottom: 1.2em;
 }
 
-h1.title {
-  margin-top: 1em;
-}
-h1.title,
-h1.title p {
-  font-size: 2.3rem;
-  line-height: 2.7rem;
+h1.title{
+  font-size: 250%;
+  margin-top: 0px;
 }
 
-
-h1.subtitle {
-    margin-top: -1em;
-    margin-bottom: 2em;
-}
-h1.subtitle,
-h1.subtitle p {
-    font-size: 1.6rem;
-    line-height: 2rem;
+.subtitle{
+    font-size:95%; /* of h1 */
 }
 
 h2{
   margin-top: 1em;
   margin-bottom: 1.2em;
-  font-size:1.6rem;
+  font-size:160%;
 }
 
 h3{
   margin-top: 1em;
   margin-bottom: 1.2em;
-  font-size:1.25rem;
+  font-size:125%;
 }
 
 h4{
   margin-top: 1em;
   margin-bottom: 1.2em;
-  font-size:1.15rem;
+  font-size:115%;
 }
 
 h5{
-    font-size:1.1rem;
+    font-size:110%;
 }
 
-h4,h5 {
+h6{
+    font-size:100%;
+}
+
+h4,h5,h6{
     font-weight:300;
 }
 
@@ -169,20 +187,10 @@ body{
     min-height:100%;
 }
 
-p {
+p{
     font-size:16px;
     line-height:24px;
     margin:0px 0px 24px 0px;
-}
-
-#content ul,
-#content ol {
-  font-size: 16px;
-}
-
-
-#content p {
-  margin-bottom: 16px;
 }
 
 b,strong{
@@ -196,10 +204,6 @@ blockquote{
     margin:0px 0px 24px 0px;
     /* margin-left:24px; */
     padding: 6px 20px;
-}
-#content blockquote > p,
-#content blockquote > ul {
-    margin-bottom: 0;
 }
 
 ul,ol,dl{
@@ -319,7 +323,7 @@ dl dd{
 }
 
 @media print{
-    #sidebar{
+    #table-of-contents{
         display:none}
 
     @page{
@@ -346,12 +350,12 @@ dl dd{
         top:0;
         height:100%;
         overflow:hidden}
-    #sidebar {
+    #table-of-contents {
         font-size: 120%;
         left: -300px;
         width: 300px;
     }
-    #content.shift #sidebar {
+    #content.shift #table-of-contents {
         font-size: 120%;
         left: 0;
         width: 75%;
@@ -394,7 +398,7 @@ dl dd{
     #nav-top {
       display: none;
     }
-    #sidebar {
+    #table-of-contents {
         left: 0;
         width: 300px;
     }
@@ -449,10 +453,6 @@ code{
     white-space: pre;
 }
 
-#content #main code a {
-  color: inherit;
-  background: none;
-}
 
 #content pre {
     /* background:#f3f6f6; */
@@ -481,7 +481,7 @@ code{
   margin-bottom: 1.8em;
 }
 
-#main table{
+table{
     border-collapse:collapse;
     border-spacing:0;
     empty-cells:show;
@@ -489,29 +489,22 @@ code{
     border-bottom:1px solid #e1e4e5;
 }
 
-#main table:not(.dataTable) {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
-}
+td{
+    vertical-align:top}
 
-#main table:not(.dataTable) td,
-#main table:not(.dataTable) th {
+table td,table th{
     font-size:90%;
-    padding: 8px;
     margin:0;
     overflow:visible;
+    padding:8px 16px;
+    background-color:white;
     border:1px solid #e1e4e5;
 }
 
-#main table thead th {
+table thead th{
     font-weight:bold;
-    border-top: 1px solid #ddd;
-    border-bottom: 2px solid #ddd;
-}
-
-#main table:not(.dataTable) thead th {
-    background-color:white;
+    border-top:3px solid #e1e4e5;
+    border-bottom:1px solid #e1e4e5;
 }
 
 table caption{
@@ -520,22 +513,17 @@ table caption{
     padding:1em 0;
 }
 
-table:not(.dataTable) tr:nth-child(2n-1) {
+table tr:nth-child(2n-1) td{
     background-color:#f3f6f6;
 }
 
-table:not(.dataTable) tr:nth-child(2n) {
+table tr:nth-child(2n) td{
     background-color:white;
 }
 
 .dataTables_wrapper {
   overflow-x: auto;
 }
-
-.dataTables_wrapper .table-wrapper {
-  margin-top: 3em;
-}
-
 
 #main .dataTables_wrapper a {
   background-image: none;
@@ -688,7 +676,7 @@ a {
     cursor:pointer;
 }
 
-#main :not(.leaflet-control) > a {
+#main a {
     background-image: linear-gradient(180deg,#d64a70,#d64a70);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -699,7 +687,7 @@ a {
     transition: background-position .15s, color .15s;
 }
 
-#main :not(.leaflet-control) > a:hover {
+#main a:hover {
     text-decoration: none;
     background-position: 0 0.3em;
     color: #ffffff;
@@ -714,10 +702,6 @@ a:hover{
 
 a:visited{
     color:#3d1308}
-
-#main a.sourceLine {
-  color: inherit;
-}
 
 .left{
     text-align:left}
@@ -736,12 +720,12 @@ hr{
     margin:24px 0;
     padding:0}
 
-#toc li{
+#table-of-contents li{
     list-style:none;
     margin-left: 0px;
 }
 
-#sidebar header{
+#table-of-contents header{
     height:32px;
     display:inline-block;
     line-height:32px;
@@ -753,27 +737,27 @@ hr{
     color:#9F2042;
     white-space:nowrap}
 
-#toc ul{
+#table-of-contents ul{
     margin-bottom:0}
 
-#toc li.divide-top{
+#table-of-contents li.divide-top{
     border-top:solid 1px #404040}
 
-#toc li.divide-bottom{
+#table-of-contents li.divide-bottom{
     border-bottom:solid 1px #404040}
 
-#toc li.current{
+#table-of-contents li.current{
     background:#e3e3e3}
 
-#toc li.current a{
+#table-of-contents li.current a{
     color:gray;
     border-right:solid 1px #c9c9c9;
     padding:0.4045em 2.427em}
 
-#toc li.current a:hover{
+#table-of-contents li.current a:hover{
     background:#d6d6d6}
 
-#toc li a{
+#table-of-contents li a{
     /* color:#404040; */
     padding:0.4045em 1.618em;
     position:relative;
@@ -783,28 +767,32 @@ hr{
     /* border-top:solid 1px #c9c9c9; */
     padding-left:1.618em -4px}
 
-#toc li.on a:hover,#toc li.current>a:hover{
+#table-of-contents li.on a:hover,#table-of-contents li.current>a:hover{
     background:#fcfcfc}
 
-#toc li ul li a{
+#table-of-contents li ul li a{
     /* background:#c9c9c9; */
     padding:0.4045em 2.427em}
 
-#toc li ul li ul li a{
+#table-of-contents li ul li ul li a{
     padding:0.4045em 3.236em}
 
-#toc li.current ul{
+#table-of-contents li.current ul{
     display:block}
 
-#toc .local-toc li ul{
+/* #table-of-contents li ul{ */
+/*     margin-bottom:0; */
+/*     display:none} */
+
+#table-of-contents .local-toc li ul{
     display:block}
 
-#toc li ul li a{
+#table-of-contents li ul li a{
     margin-bottom:0;
     color:#b3b3b3;
     font-weight:normal}
 
-#sidebar a{
+#table-of-contents a{
     display:inline-block;
     line-height:18px;
     padding:0.4045em 1.618em;
@@ -816,35 +804,26 @@ hr{
     text-decoration: none;
 }
 
-#sidebar #postamble a {
-  display: inline;
-  padding: 0 2px;
-  font-size: 100%;
-}
-
-#sidebar a:hover{
+#table-of-contents a:hover{
     background-color:#4e4a4a;
     cursor:pointer}
 
-#toc {
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-grow: 200;
+#text-table-of-contents {
+     overflow:auto;
 }
 
-#sidebar {
+#table-of-contents{
     position:fixed;
     top:0;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
     height:100%;
     background:#211103;
     z-index:200;
     font-size: 16px;
 }
 
-#sidebar h2{
+#table-of-contents h2{
     z-index:200;
     background-color:#9F2042;
     text-align:center;
@@ -856,60 +835,60 @@ hr{
     margin-bottom:0.809em;
 }
 
-#sidebar h2 a {
+#table-of-contents h2 a {
     color:#ffffff;
     text-decoration: none;
 }
 
-#sidebar h2 a:hover,
-#sidebar h2 a:active,
-#sidebar h2 a:focus {
+#table-of-contents h2 a:hover,
+#table-of-contents h2 a:active,
+#table-of-contents h2 a:focus {
     background-color: transparent;
     text-decoration: none;
 }
 
 
-#toc ul.nav li ul li {
+#table-of-contents ul.nav li ul li {
     display: none;
 }
 
-#toc ul.nav li ul li ul li {
+#table-of-contents ul.nav li ul li ul li {
     display: none;
 }
 
-#toc ul.nav li.active ul li {
+#table-of-contents ul.nav li.active ul li {
     display: inline;
 }
 
-#toc ul.nav li.active ul li ul li {
+#table-of-contents ul.nav li.active ul li ul li {
     display: inline;
 }
 
-#toc ul.nav li.active ul li a {
+#table-of-contents ul.nav li.active ul li a {
     background-color: #E3E3E3;
     color: #8099B0;
     border-right:solid 1px #c9c9c9 !important;
 }
 
-#toc ul.nav li.active ul li.active a {
+#table-of-contents ul.nav li.active ul li.active a {
     background-color: #C9C9C9;
     color: black !important;
     font-weight: bold !important;
 }
 
-#toc ul.nav li.active ul li.active ul li.active a {
+#table-of-contents ul.nav li.active ul li.active ul li.active a {
     color: black !important;
     font-weight: bold !important;
     display: block !important;
 }
 
-#toc ul.nav li.active ul li.active ul li a {
+#table-of-contents ul.nav li.active ul li.active ul li a {
     color: #808080 !important;
     font-weight: normal !important;
     display: block !important;
 }
 
-#toc ul.nav li.active ul li ul li a {
+#table-of-contents ul.nav li.active ul li ul li a {
     display: none !important;
 }
 
@@ -918,24 +897,24 @@ hr{
 /*     /\* display: none; /\* as long as nav is on multiple levels of ul *\\/ *\/ */
 /* } */
 
-#toc ul.nav li ul li ul li ul li {
+#table-of-contents ul.nav li ul li ul li ul li {
     display: none !important; /* as long as nav is on multiple levels of ul */
     /* display: none; /* as long as nav is on multiple levels of ul *\/ */
 }
 
-#toc ul.nav li.active > a {
+#table-of-contents ul.nav li.active > a {
     border-bottom:solid 1px #c9c9c9 !important; /* XXX Restrict it to 2nd level */
     border-right:solid 1px #c9c9c9 !important;
 }
 
-#toc ul.nav li.active a {
+#table-of-contents ul.nav li.active a {
     color: gray !important;
     font-weight:bold;
     background-color: white;
     border-right:solid 0px white !important;
 }
 
-#toc ul.nav > li.active > a {
+#table-of-contents ul.nav > li.active > a {
     color: black !important;
 }
 
@@ -946,6 +925,8 @@ footer p{
     margin-bottom:12px}
 
 #postamble{
+    position:fixed;
+    bottom:0;
     color:#fcfcfc;
     background:#1f1d1d;
     border-top:solid 10px #211103;
