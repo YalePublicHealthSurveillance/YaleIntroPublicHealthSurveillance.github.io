@@ -59,10 +59,6 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
     -   Accessibility: automatic English subtitles will be used on recorded videos
 
-### Course textbook
-
--   This workshop will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
-
 ### Communication
 
 -   Please join the Slack workspace for this course to participate in discussions about course material
@@ -77,9 +73,19 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 3b) If you were not selected to attend the live session, view the recordings at a later time on Microsoft stream
 
-### Schedule for live sessions
+### Schedule for live sessions (max 1.5-2 hours each)
 
-![](C:/Users/dmw63/AppData/Local/RStudio/tmp/paste-D1C83DCF.png)
+-   US/Africa/Europe: January 4, 6, 11, 13
+
+    -   9:30am US ET (New York); 2:30pm GMT (london); 4:30pm Johannesburg
+
+-   Asia/Pacific: January 5, 5, 12, 14
+
+    -   12pm Melbourne Australia; 9am Manila and Beijing; 8am Hanoi (5pm US Pacific time/8pm New York on the previous day)
+
+### Course textbook
+
+-   This workshop will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
 
 ## Getting started
 
@@ -111,29 +117,43 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ## Course materials
 
+### 0. Introduction and Welcome to the course
+
+[Watch this brief video for an introduction to the workshop](https://youtu.be/D-8_byBn3lo)
+
 ### 1. Hands on: Introduction to R
 
--this optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
+This optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
 -   Watch this Video to orient you to RStudio and the R programming language
 
--   Navigate to Session-0-Intro-to-R on the RStudio Cloud work space
+-   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
 
-### 2. Recorded Presentation: What is 'vaccine impact'?
+-   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-0-Intro-to-R/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project
 
--In this brief video, we will discuss ways to evaluate the effects of vaccines and the distinctions between different metrics
+### 2. Recorded Presentation: What is 'vaccine impact'? and Administrative data: challenges and opportunities for evaluation studies
 
-### 3. Recorded Presentation: Administrative data: challenges and opportunities for evaluation studies
+In this video (TODO), we will:
 
--In this brief video, we will discuss types of administrative data and sources for these types of data, along with limitations of this type of data
+-   Discuss ways to evaluate the effects of vaccines and the distinctions between different metrics;
 
-### 4. Live session 1: Data Wrangling
+-   Discuss types of administrative data and sources for these types of data
+
+-   Discuss limitations of adminstrative data
+
+### 3. Live session 1: Data Wrangling
 
 -In this hands on session, we will start with a database of individual-level administrative data, create time series, and do some basic visualization
 
-### 5. Recorded presentation: Interrupted time series analysis
+Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
 
-In this presentation, we will discuss:
+-   Recommended: navigate to Session1-Data-Wrangling on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
+
+-   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-1-Data-Wrangling/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
+
+### 4. Recorded presentation: Interrupted time series analysis
+
+In this video(TODO), we will discuss:
 
 -   The goals for interrupted time series analysis
 
@@ -141,15 +161,27 @@ In this presentation, we will discuss:
 
 -   Critical evaluation of ITS methods
 
-### 6. Live session 2: Trend analysis and interrupted time series analysis
+### 5. Live session 2: Trend analysis and interrupted time series analysis
 
-### 7. Live session 3: Case study: PCV impact in The Gambia
+Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
+
+-   Recommended: navigate to Session2-Trend-Analysis on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
+
+-   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-2-Trend-Analysis/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
+
+### 6. Live session 3: Case study: PCV impact in The Gambia
 
 In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia
 
-### 8. Recorded presentation: Using controls and synthetic controls
+Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
 
--In this video, we will discuss:
+-   Recommended: navigate to Session3-Hands-on-Example-Gambia on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
+
+-   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-3-Hands-on-Example-Gambia/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
+
+### 7. Recorded presentation: Using controls and synthetic controls
+
+-In this video(TODO), we will discuss:
 
 -   The goals for using control outcomes or control covariates
 
@@ -159,7 +191,13 @@ In this live session, we will go through an example of applying interrupted time
 
 -   Synthetic controls methodology
 
-### 9. Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
+### 8. Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
+
+Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
+
+-   Recommended: navigate to Session4-Synthetic-Controls on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
+
+-   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-4-Synthetic-Controls/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project
 
 ## Acknowledgments
 
