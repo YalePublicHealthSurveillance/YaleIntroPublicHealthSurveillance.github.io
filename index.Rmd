@@ -31,7 +31,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 -   Presenting your findings and managing uncertainty
 
-## Workshop learning objectives
+### Workshop learning objectives
 
 -   To understand the strengths and weaknesses of routinely collected administrative data
 
