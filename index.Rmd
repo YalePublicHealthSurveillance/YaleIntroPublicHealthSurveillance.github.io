@@ -183,7 +183,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 7. Recorded presentation: Using controls and synthetic controls
 
--In this video(TODO), we will discuss:
+-In this [video](https://youtu.be/2mIvCEekdDU), we will discuss:
 
 -   The goals for using control outcomes or control covariates
 
@@ -200,6 +200,16 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 -   Recommended: navigate to Session4-Synthetic-Controls on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
 
 -   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-4-Synthetic-Controls/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project
+
+### 9. Presenting results and dealing with uncertainty
+
+-In this video (TODO), we will discuss:
+
+-   Principles for making nice plots
+
+-   Presenting uncertainty
+
+-   Which pieces of data should you focus on, and for which audiences
 
 ## Acknowledgments
 
