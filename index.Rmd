@@ -133,13 +133,13 @@ This optional video and tutorial is designed for R novices to introduce you to t
 
 ### 2. Recorded Presentation: What is 'vaccine impact'? and Administrative data: challenges and opportunities for evaluation studies
 
-In this video (TODO), we will:
+In this [video](https://youtu.be/JnI9Hh8BWmk), we will:
 
--   Discuss ways to evaluate the effects of vaccines and the distinctions between different metrics;
+-   Discuss the distinction between vaccine effectiveness and vaccine impact;
 
 -   Discuss types of administrative data and sources for these types of data
 
--   Discuss limitations of adminstrative data
+-   Discuss limitations of administrative data
 
 ### 3. Live session 1: Data Wrangling
 
