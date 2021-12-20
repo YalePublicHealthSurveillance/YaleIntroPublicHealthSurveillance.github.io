@@ -153,13 +153,15 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 4. Recorded presentation: Interrupted time series analysis
 
-In this video(TODO), we will discuss:
+In this [video](https://youtu.be/rD_pTH3Lwk0), we will discuss:
 
--   The goals for interrupted time series analysis
+-   The goals for trend analysis and interrupted time series analysis
 
 -   Different approaches for using ITS
 
 -   Critical evaluation of ITS methods
+
+-   How much data do you need?
 
 ### 5. Live session 2: Trend analysis and interrupted time series analysis
 
