@@ -119,27 +119,29 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ### 0. Introduction and Welcome to the course
 
-[Watch this brief video for an introduction to the workshop](https://youtu.be/D-8_byBn3lo)
+[Watch this brief video](https://youtu.be/D-8_byBn3lo) (10 minutes) for an introduction to the workshop (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ### 1. Hands on: Introduction to R
 
-This optional video and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
+This optional video (TODO) and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
--   Watch this Video to orient you to RStudio and the R programming language
+-   Watch this Video (TODO) to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
--   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
+-   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud)
 
 -   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-0-Intro-to-R/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project
 
-### 2. Recorded Presentation: What is 'vaccine impact'? and Administrative data: challenges and opportunities for evaluation studies
+### 2. Recorded Presentation: What is 'vaccine impact'?; and Administrative data: challenges and opportunities for evaluation studies
 
-In this [video](https://youtu.be/JnI9Hh8BWmk), we will:
+In this [video](https://youtu.be/JnI9Hh8BWmk) (24 minutes), we will:
 
 -   Discuss the distinction between vaccine effectiveness and vaccine impact;
 
 -   Discuss types of administrative data and sources for these types of data
 
 -   Discuss limitations of administrative data
+
+-   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ### 3. Live session 1: Data Wrangling
 
@@ -153,7 +155,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 4. Recorded presentation: Interrupted time series analysis
 
-In this [video](https://youtu.be/rD_pTH3Lwk0), we will discuss:
+In this [video](https://youtu.be/rD_pTH3Lwk0) (28 minutes), we will discuss:
 
 -   The goals for trend analysis and interrupted time series analysis
 
@@ -162,6 +164,8 @@ In this [video](https://youtu.be/rD_pTH3Lwk0), we will discuss:
 -   Critical evaluation of ITS methods
 
 -   How much data do you need?
+
+-   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ### 5. Live session 2: Trend analysis and interrupted time series analysis
 
@@ -173,7 +177,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 6. Live session 3: Case study: PCV impact in The Gambia
 
-In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia
+In this live session, we will go through an example of applying interrupted time series analysis to data from The Gambia for the purspose of evaluating the impact of pneumococcal conjugate vaccines.
 
 Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
 
@@ -183,7 +187,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 7. Recorded presentation: Using controls and synthetic controls
 
--In this [video](https://youtu.be/2mIvCEekdDU), we will discuss:
+-In this [video](https://youtu.be/2mIvCEekdDU) (19 minutes), we will discuss:
 
 -   The goals for using control outcomes or control covariates
 
@@ -192,6 +196,8 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 -   Criteria for selecting candidate controls
 
 -   Synthetic controls methodology
+
+-   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ### 8. Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
 
@@ -210,6 +216,8 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 -   Presenting uncertainty
 
 -   Which pieces of data should you focus on, and for which audiences
+
+-   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ## Acknowledgments
 
