@@ -133,7 +133,7 @@ This optional video (TODO) and tutorial is designed for R novices to introduce y
 
 ### 2. Recorded Presentation: What is 'vaccine impact'?; and Administrative data: challenges and opportunities for evaluation studies
 
-In this [video](https://youtu.be/JnI9Hh8BWmk), we will:
+In this [video](https://youtu.be/JnI9Hh8BWmk) (24 minutes), we will:
 
 -   Discuss the distinction between vaccine effectiveness and vaccine impact;
 
@@ -155,7 +155,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 4. Recorded presentation: Interrupted time series analysis
 
-In this [video](https://youtu.be/rD_pTH3Lwk0), we will discuss:
+In this [video](https://youtu.be/rD_pTH3Lwk0) (28 minutes), we will discuss:
 
 -   The goals for trend analysis and interrupted time series analysis
 
@@ -187,7 +187,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 7. Recorded presentation: Using controls and synthetic controls
 
--In this [video](https://youtu.be/2mIvCEekdDU), we will discuss:
+-In this [video](https://youtu.be/2mIvCEekdDU) (19 minutes), we will discuss:
 
 -   The goals for using control outcomes or control covariates
 
