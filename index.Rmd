@@ -61,7 +61,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ### Communication
 
--   Please join the Slack workspace for this course to participate in discussions about course material
+-   Please [join the Slack workspace](https://join.slack.com/t/vaccineevalua-rcb9506/shared_invite/zt-za11rvx3-IUfoP7KHrBsBsRxrRRbEPQ) for this course to participate in discussions about course material
 
 ### How to navigate the course
 
