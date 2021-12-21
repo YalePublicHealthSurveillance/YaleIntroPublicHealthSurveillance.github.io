@@ -125,7 +125,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 This optional video (TODO) and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
--   Watch this Video (TODO) to orient you to RStudio and the R programming language
+-   Watch this Video (TODO) to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 -   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud)
 
@@ -177,7 +177,7 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 ### 6. Live session 3: Case study: PCV impact in The Gambia
 
-In this live session, we will go through an example of applying interrupted time series analysis to time series data from The Gambia
+In this live session, we will go through an example of applying interrupted time series analysis to data from The Gambia for the purspose of evaluating the impact of pneumococcal conjugate vaccines.
 
 Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
 
