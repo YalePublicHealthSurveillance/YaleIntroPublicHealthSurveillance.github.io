@@ -119,7 +119,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ### 0. Introduction and Welcome to the course
 
-[Watch this brief video for an introduction to the workshop](https://youtu.be/D-8_byBn3lo) (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
+[Watch this brief video](https://youtu.be/D-8_byBn3lo) (10 minutes) for an introduction to the workshop (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 ### 1. Hands on: Introduction to R
 
