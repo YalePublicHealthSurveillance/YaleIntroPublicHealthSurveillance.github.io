@@ -1,75 +1,141 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="pandoc" />
 
-<head>
+    
+    
+    <title>Workshop on the evaluation of vaccine impact</title>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
+        <script src="index_files/header-attrs-2.10/header-attrs.js"></script>
+        <script src="index_files/jquery-1.11.3/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="index_files/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="index_files/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        <script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+        <script src="index_files/navigation-1.1/tabsets.js"></script>
+        <script src="index_files/navigation-1.1/codefolding.js"></script>
+        <link href="index_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
+        <script src="index_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
+        <link href="index_files/readthedown-0.1/readthedown.css" rel="stylesheet" />
+        <link href="index_files/readthedown-0.1/readthedown_fonts_embed.css" rel="stylesheet" />
+        <script src="index_files/readthedown-0.1/readthedown.js"></script>
+    
+    
+    
+        <link rel="stylesheet" href="stylesreadthedown.css" type="text/css" />
+    
+    <!-- tabsets -->
+    <script>
+      $(document).ready(function () {
+	  window.buildTabsets("toc");
+      });
+      $(document).ready(function () {
+	  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+	      $(this).parent().toggleClass('nav-tabs-open')
+	  });
+      });
+    </script>
 
+    <!-- code folding -->
+        <script>
+      $(document).ready(function () {
+	  	  	  window.initializeCodeFolding("hide" === "show");
+	        });
+    </script>
+    
+    <!-- code download -->
+    
+    <!-- tabsets dropdown -->
 
+    <style type="text/css">
+      .tabset-dropdown > .nav-tabs {
+	  display: inline-table;
+	  max-height: 500px;
+	  min-height: 44px;
+	  overflow-y: auto;
+	  background: white;
+	  border: 1px solid #ddd;
+	  border-radius: 4px;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+	  content: "&#xe258;";
+	  border: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active {
+	  display: block;
+      }
 
-<title>Workshop on the evaluation of vaccine impact</title>
+      .tabset-dropdown > .nav-tabs > li.active a {
+  	  padding: 0 15px !important;
+      }
 
-<script src="index_files/header-attrs-2.10/header-attrs.js"></script>
-<script src="index_files/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="index_files/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-<script src="index_files/bootstrap-3.3.6/js/bootstrap.min.js"></script>
-<script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<script src="index_files/navigation-1.1/tabsets.js"></script>
-<script src="index_files/navigation-1.1/codefolding.js"></script>
-<link href="index_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
-<script src="index_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
-<link href="index_files/readthedown-0.1/readthedown.css" rel="stylesheet" />
-<script src="index_files/readthedown-0.1/readthedown.js"></script>
-
-
-
-<link rel="stylesheet" href="stylesreadthedown.css" type="text/css" />
-
+      .tabset-dropdown > .nav-tabs > li > a,
+      .tabset-dropdown > .nav-tabs > li > a:focus,
+      .tabset-dropdown > .nav-tabs > li > a:hover {
+	  border: none;
+	  display: inline-block;
+	  border-radius: 4px;
+	  background-color: transparent;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+	  display: block;
+	  float: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li {
+	  display: none;
+	  margin-left: 0 !important;
+      }
+    </style>
+    
 </head>
 
-<body>
+<body class="preload">
 
-
-<div id="content" data-toggle="wy-nav-shift">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
-
-<nav id="nav-top" role="navigation" aria-label="top navigation">
-    <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-</nav>
-
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="text-muted">Code</span> <span class="text-muted caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All</a></li>
-</ul>
-</div>
-
-<div id="header">
-<h1 class="title">Workshop on the evaluation of vaccine impact</h1>
-</div>
-
-
-<div id="table-of-contents">
+   	
+         <!-- readthedown start -->   
+   <div id="content" data-toggle="wy-nav-shift">
+     <nav id="nav-top" role="navigation" aria-label="top navigation">
+       <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+     </nav>
+         
+      <div class="btn-group pull-right">
+     <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+     <ul class="dropdown-menu" style="min-width: 50px;">
+	    	    <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+	    <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+	    	    	         </ul>
+   </div>
+   
+        
+      <h1 class="title">Workshop on the evaluation of vaccine impact</h1>
+      
+         <!-- readthedown authors -->
+   <div id="sidebar">
     <h2><a href="#content">Workshop on the evaluation of vaccine impact</a></h2>
-    <div id="text-table-of-contents">
+    <div id="toc">
       <ul>
       <li><a href="#topics-covered-in-the-workshop">Topics covered in the workshop</a>
       <ul>
@@ -106,8 +172,15 @@ $(document).ready(function () {
       <li><a href="#acknowledgments">Acknowledgments</a></li>
       </ul>
     </div>
-</div>
+    <div id="postamble" data-toggle="wy-nav-shift" class="status">
+                </div>
+   </div>
+     
 
+   
+      
+   
+<!-- Don't indent these lines or it will mess pre blocks indentation --> 
 <div id="main">
 <p>This workshop will be focused on quantitative methods for the evaluation of vaccine impact, with a particular focus on the use of routinely collected administrative data (e.g., hospitalizations, deaths). This workshop will be held virtually in January 2022 and will include both live and recorded material. Didactic presentations will introduce different types of analyses, such as interrupted time series and synthetic controls methods and their strengths and weaknesses. Hand-on sessions will focus on data management and manipulation; analysis and interpretation of aggregate time series data, and presentation of results.</p>
 <p><strong>This workshop is intended for data analysts, practitioners, and students who are performing evaluations of the impact of vaccines and other public health interventions using time series data</strong></p>
@@ -155,7 +228,7 @@ $(document).ready(function () {
 <div id="communication" class="section level3">
 <h3>Communication</h3>
 <ul>
-<li>Please join the Slack workspace for this course to participate in discussions about course material</li>
+<li>Please <a href="https://join.slack.com/t/vaccineevalua-rcb9506/shared_invite/zt-za11rvx3-IUfoP7KHrBsBsRxrRRbEPQ">join the Slack workspace</a> for this course to participate in discussions about course material</li>
 </ul>
 </div>
 <div id="how-to-navigate-the-course" class="section level3">
@@ -224,11 +297,11 @@ $(document).ready(function () {
 </div>
 <div id="hands-on-introduction-to-r" class="section level3">
 <h3>1. Hands on: Introduction to R</h3>
-<p>This optional video (TODO) and tutorial is designed for R novices to introduce you to the R statistical programming language and the RStudio interface</p>
+<p>This <a href="https://youtu.be/x7puTUn4mmw">video and tutorial</a> (40 minutes) is designed for R novices to introduce you to the R statistical programming language and the RStudio interface</p>
 <ul>
-<li><p>Watch this Video (TODO) to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)</p></li>
-<li><p>For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud)</p></li>
-<li><p>If you want to run the materials on your own computer, you can directly download the project <a href="https://github.com/VaccineEvaluationWorkshop/Session-0-Intro-to-R/archive/refs/heads/main.zip">here</a>, unzip it, and click the .Rproj file to launch the project</p></li>
+<li><p>Watch this <a href="https://youtu.be/x7puTUn4mmw">Video</a>to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)</p></li>
+<li><p>For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud). You can follow along with the <a href="https://youtu.be/x7puTUn4mmw">video</a> to see how to get started, and then either follow the video or complete the exercises on your own.</p></li>
+<li><p>If you want to run the materials on your own computer, you can directly download the project <a href="https://github.com/VaccineEvaluationWorkshop/Session-0-Intro-to-R/archive/refs/heads/main.zip">here</a>, unzip it, and click the .Rproj file to launch the project. Then open the .Rmd file and click ‘Run document’ at the top’</p></li>
 </ul>
 </div>
 <div id="recorded-presentation-what-is-vaccine-impact-and-administrative-data-challenges-and-opportunities-for-evaluation-studies" class="section level3">
@@ -330,28 +403,30 @@ $(document).ready(function () {
 </div>
 </div>
 
+   
+   
+            
+      
 
-</div>
+  <script>
+    $(document).ready(function () {
 
-<div id="postamble" data-toggle="wy-nav-shift" class="status">
-</div>
-
-
-<script>
-$(document).ready(function () {
- 	  });
-</script>
+			
+ 		
+	    });
+  </script>
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
+    <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+	document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+  
 </body>
 </html>
