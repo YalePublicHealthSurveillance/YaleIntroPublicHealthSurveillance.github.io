@@ -125,7 +125,7 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 This [video and tutorial](https://youtu.be/x7puTUn4mmw) (42 minutes) is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
 
--   Watch this [Video](https://youtu.be/x7puTUn4mmw)to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
+-   Watch this [Video](https://youtu.be/x7puTUn4mmw) to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
 
 -   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud). You can follow along with the [video](https://youtu.be/x7puTUn4mmw) to see how to get started, and then either follow the video or complete the exercises on your own.
 
