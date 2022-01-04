@@ -153,6 +153,8 @@ Join the ZOOM link provided and follow along on RStudio.cloud or on your own com
 
 -   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-1-Data-Wrangling/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
 
+-For those who were unable to join for this session, a recording can be found [here](https://youtu.be/gIpg1n9OT4U).
+
 ### 4. Recorded presentation: Interrupted time series analysis
 
 In this [video](https://youtu.be/rD_pTH3Lwk0) (28 minutes), we will discuss:
