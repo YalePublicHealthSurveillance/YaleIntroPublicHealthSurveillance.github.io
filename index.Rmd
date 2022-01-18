@@ -1,5 +1,5 @@
 ---
-title: "Workshop on the evaluation of vaccine impact"
+title: "Introduction to Public Health Surveillance"
 output:
   rmdformats::readthedown:
     code_folding: hide
@@ -15,79 +15,89 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-This workshop will be focused on quantitative methods for the evaluation of vaccine impact, with a particular focus on the use of routinely collected administrative data (e.g., hospitalizations, deaths). This workshop will be held virtually in January 2022 and will include both live and recorded material. Didactic presentations will introduce different types of analyses, such as interrupted time series and synthetic controls methods and their strengths and weaknesses. Hand-on sessions will focus on data management and manipulation; analysis and interpretation of aggregate time series data, and presentation of results.
+## Course description
 
-**This workshop is intended for data analysts, practitioners, and students who are performing evaluations of the impact of vaccines and other public health interventions using time series data**
+Surveillance is one of the fundamental activities of public health organizations and is critical for understanding disease burden, impacts of interventions, and the detection of unusual events. This course will begin with an overview of surveillance in different contexts. Several guest lecturers will address the question "What is surveillance" and will discuss challenges in performing surveillance in different settings and data that are available for use. The rest of the semester will be broken into 2 sections: "Aberration Detection" and "Monitoring Interventions". Throughout the semester, we will discuss analytical methods used with surveillance data and will have "hands-on" practical data analysis workshops and associated homework assignments. Throughout the course, there will be a focus on the critical evaluation of surveillance data from different sources. We will use a mix of lectures, discussion, guided data analyses, and in-class exercises to analyze and interpret a number of "real world" surveillance dataset from different sources.
 
-## Topics covered in the workshop
+Methods modules will be structured as follows: we will have a lecture to introduce the topic. We will then go through some worked examples as a group, going through the code in detail. We will then have a session where you go through in groups and complete an analysis from end-to-end in class, with the instructors circulating to help troubleshoot coding and analysis issues. You will then have a take-home problems on the same topic that you will complete individually.
 
--   Optional Introduction fo R
+Several statistical packages, including R and SATSCAN will be used in hands-on demonstrations and homework assignments. We will use the RStudio.Cloud platform, which is a web-based version of RStudio. You are also welcome to run the code locally on your computer or on myapps.yale.edu. All code can be downloaded from Github <https://github.com/YalePublicHealthSurveillance>
 
--   Background on the use of administrative data and potential pitfalls
+## COVID Policy
 
--   Interrupted time series analysis
+The situation remains fluid, and we will adapt as needed. As dictated by YSPH, the first 4 class sessions will be help via ZOOM. For subsequent sessions, we will have in-person sessions, and it would be great if you come to the classroom. Please do not come to class in person if you have any possible COVID symptoms. Given the expectation that some people will be isolating/quarantined during the semester or prefer not to come in person, all sessions will also be simulcast on ZOOM, and videos will be archived on Canvas.
 
--   Use of controls and synthetic controls
+## My teaching philosophy
 
--   Presenting your findings and managing uncertainty
+As graduate students in a professional training program, the goal is to arm you with tools that you need to be successful practitioners. The best (and only) way to be able to implement these tools is through hands on experience and data analysis. Wherever possible, we will analyze real world datasets, with warts and all, when learning new data analysis methods. With any type of data analysis, there are several pieces that need to be mastered: understanding the motivations underlying the analysis, understanding the analysis approach itself (and its limitations), and being able to implement the mechanics of analysis. We will have some didactic lectures to introduce topics and address these first two pieces. But to fully master new techniques, it is important to get your hands dirty, try some analyses, and understand what different pieces of code are doing.
 
-### Workshop learning objectives
+## Prerequisites
 
--   To understand the strengths and weaknesses of routinely collected administrative data
+-   Previous experience with coding in R (ie intro stats, AAME). However, those without previous experience in R are welcome to take the class, and the computational instruction is geared towards novices.
 
--   To distinguish between vaccine impact and vaccine effectiveness studies
+-   Basic familiarity with statistical principles (including linear and Poisson regression) is highly recommended.
 
--   To critically evaluate different methods for evaluating vaccine impact
+## Course learning objectives 
 
--   To format and analyze real world time series data
+*After successfully completing this course, you should be able to:*
 
-## 
+1\) Define the strengths and weaknesses of surveillance systems frequently used by public health agencies and researchers
 
-## Course logistics
+2\) Identify common sources of data used in surveillance activities
 
-### Prerequisites
+3\) Critically analyze data from surveillance systems with statistical tools
 
--   Knowledge of basic statistics (e.g., regression)
+4\) Communicate the results of surveillance studies along with appropriate caveats
 
--   Familiarity with R is recommended but not required
+### 
 
-### Structure of the course
+## Instructors
 
--   Recorded didactic presentations
+Main Instructor: Dan Weinberger, PhD, Associate Professor of Epidemiology (EMD)
 
--   "Live" interactive data analysis sessions via RStudio Cloud and ZOOM, with recordings archived on Microsoft Stream
+F: Jiye Kwon, MPH: PhD student (EMD)
 
-    -   Accessibility: automatic English subtitles will be used on recorded videos
+### Guest lectures
 
-### Communication
+**Jim Meek and Kimberly Yousey-Hindes**, Yale Emerging Infections Program.
 
--   Please [join the Slack workspace](https://join.slack.com/t/vaccineevalua-rcb9506/shared_invite/zt-za11rvx3-IUfoP7KHrBsBsRxrRRbEPQ) for this course to participate in discussions about course material
+**Farzad Mostashari**, Formerly New York City Health Department; former deputy national coordinator for health IT for the US government; Currently CEO Aledade Health.
 
-### How to navigate the course
+**Dr. Gregg Gonsalves**, YSPH/EMD
 
-1)  For R novices only: complete the recorded introduction to R session video and the accompanying tutorial
+**Dr. Nathan Grubaugh**, YSPH/EMD
 
-2)  Watch the recorded video on Microsoft Stream prior to the lives sessions to obtain background on the topic
+**Dr. Kayoko Shioda**, DVM, PhD; Postdoc at Emory Rollins School of Public Health
 
-3a) If you were selected to attend the live sessions, log onto ZOOm at the designated time and follow along with rstudio.cloud
+**Kelsie Cassell**, MPH, PhD student at YSPH
 
-3b) If you were not selected to attend the live session, view the recordings at a later time on Microsoft stream
+**Stephanie Perniciaro,** MPH, PhD: Associate Research Scientist at YSPH
 
-### Schedule for live sessions (max 1.5-2 hours each)
+## Components of grades 
 
--   US/Africa/Europe: January 4, 6, 11, 13
+-   Assignments 4x: 90% of grade (1,2,4 worth 25% each;
+    assignment #3 worth 15%)
 
-    -   9:30am US ET (New York); 2:30pm GMT (london); 4:30pm Johannesburg
+-   Attendance and participation (10%)
 
--   Asia/Pacific: January 5, 7, 12, 14
-
-    -   12pm Melbourne Australia; 9am Manila and Beijing; 8am Hanoi (5pm US Pacific time/8pm New York on the previous day)
+### 
 
 ### Course textbook
 
--   This workshop will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
+There is no textbook for the course. The final part of the course on evaluating interventions will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
 
-## Getting started
+Readings will be posted to the Yale Canvas website. Readings will consist of a mix of
+journal articles, MMWR reports, and book chapters. Good additional references include
+
+*Infectious disease surveillance* by M'ikanatha, Lynfield, Van Beneden, and de Valk;
+
+*The Handbook of Biosurveillance*
+(available for free and online through the Yale library),
+
+*Spatial and Syndromic Suveillance for Public
+Health* by Lawson and Kleinman.
+
+## Getting started in Rstudio.cloud
 
 ### For novices:
 
@@ -111,140 +121,21 @@ This workshop will be focused on quantitative methods for the evaluation of vacc
 
 ### For advanced users:
 
--   Run the workshop materials on your local machine on RStudio. All workshop materials are provided as a set of RProjects, which can be access from <https://github.com/orgs/VaccineEvaluationWorkshop>
+-   Run the workshop materials on your local machine on RStudio. All workshop materials are provided as a set of RProjects, which can be access from [https://github.com/orgs/V](https://github.com/orgs/VaccineEvaluationWorkshop){.uri}[accineEvaluationWorkshop](https://github.com/YalePublicHealthSurveillance){.uri}
 
 -   You can either directly download and then open the projects on your computer by clicking the .rproj file in the corresponding directory, or you can download via Git, if installed on your computer
 
-## Course materials
-
-### 0. Introduction and Welcome to the course
-
-[Watch this brief video](https://youtu.be/D-8_byBn3lo) (10 minutes) for an introduction to the workshop (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
-### 1. Hands on: Introduction to R
-
-This [video and tutorial](https://youtu.be/x7puTUn4mmw) (42 minutes) is designed for R novices to introduce you to the R statistical programming language and the RStudio interface
-
--   Watch this [Video](https://youtu.be/x7puTUn4mmw) to orient you to RStudio and the R programming language. For subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
--   For novices, navigate to Session-0-Intro-to-R on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud). You can follow along with the [video](https://youtu.be/x7puTUn4mmw) to see how to get started, and then either follow the video or complete the exercises on your own.
-
--   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-0-Intro-to-R/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project. Then open the .Rmd file and click 'Run document' at the top'
-
-### 2. Recorded Presentation: What is 'vaccine impact'?; and Administrative data: challenges and opportunities for evaluation studies
-
-In this [video](https://youtu.be/JnI9Hh8BWmk) (24 minutes), we will:
-
--   Discuss the distinction between vaccine effectiveness and vaccine impact;
-
--   Discuss types of administrative data and sources for these types of data
-
--   Discuss limitations of administrative data
-
--   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
-### 3. Live session 1: Data Wrangling
-
--In this hands on session, we will start with a database of individual-level administrative data, create time series, and do some basic visualization
-
-Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
-
--   Recommended: navigate to Session1-Data-Wrangling on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
-
--   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-1-Data-Wrangling/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
-
--For those who were unable to join for this session, a recording can be found [here](https://youtu.be/gIpg1n9OT4U).
-
-### 4. Recorded presentation: Interrupted time series analysis
-
-In this [video](https://youtu.be/rD_pTH3Lwk0) (28 minutes), we will discuss:
-
--   The goals for trend analysis and interrupted time series analysis
-
--   Different approaches for using ITS
-
--   Critical evaluation of ITS methods
-
--   How much data do you need?
-
--   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
-### 5. Live session 2: Trend analysis and interrupted time series analysis
-
-Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
-
--   Recommended: navigate to Session2-Trend-Analysis on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
-
--   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-2-Trend-Analysis/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
-
-### 6. Live session 3: Case study: PCV impact in The Gambia
-
-In this live session, we will go through an example of applying interrupted time series analysis to data from The Gambia for the purspose of evaluating the impact of pneumococcal conjugate vaccines.
-
-Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
-
--   Recommended: navigate to Session3-Hands-on-Example-Gambia on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
-
--   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-3-Hands-on-Example-Gambia/archive/refs/heads/master.zip), unzip it, and click the .Rproj file to launch the project
-
-### 7. Recorded presentation: Using controls and synthetic controls
-
--In this [video](https://youtu.be/2mIvCEekdDU) (19 minutes), we will discuss:
-
--   The goals for using control outcomes or control covariates
-
--   Different approaches that are used for incorporating controls into your analyses
-
--   Criteria for selecting candidate controls
-
--   Synthetic controls methodology
-
--   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
-### 8. Live Session 4: Synthetic controls analysis (Case study: South Africa); presenting results and dealing with uncertainty
-
-Join the ZOOM link provided and follow along on RStudio.cloud or on your own computer
-
--   Recommended: navigate to Session4-Synthetic-Controls on the RStudio Cloud work space (see instructions above about how to set up an account on RStudio Cloud
-
--   If you want to run the materials on your own computer, you can directly download the project [here](https://github.com/VaccineEvaluationWorkshop/Session-4-Synthetic-Controls/archive/refs/heads/main.zip), unzip it, and click the .Rproj file to launch the project
-
-### 9. Presenting results and dealing with uncertainty
-
--In this video (TODO), we will discuss:
-
--   Principles for making nice plots
-
--   Presenting uncertainty
-
--   Which pieces of data should you focus on, and for which audiences
-
--   (for subtitles, click the CC button at the bottom of the video; for translated subtitles, Click Settings/Subtitles/Select your Language)
-
-## Acknowledgments
-
--   The development of this course was supported by the Bill and Melinda Gates Foundation.
-
--   The course will be led by Dan Weinberger, PhD; Associate Professor of Epidemiology at Yale School of Public Health.
-
--   The material in this workshop was jointly developed with
-
-    -   Dr. Kayoko Shioda (Yale/Emory)
-
-    -   Iris Artin
-
-    -   Dr Cristiana Toscano (PAHO/Universidade Federal de Goiás)
-
-    -   Dr. Lucia Oliveria (PAHO)
-
-    -   Dr. Jackie Kleynhans (NICD/South Africa)
-
-    -   Dr. Nuredin Mohammed (MRC/Gambia)
-
-    -   Dr. Lone Simonsen (Roskilde)
-
-    -   Dr. Rob Taylor (Sage Analytica)
-
-    -   Dr. Christian Bruhn
-
-    -   The WHO working group on the use of administrative data to evaluate PCV impact (Fernanda Lessa (CDC), Jennifer Loo Farrar (CDC), Tomoka Nakamura (WHO), Adam Cohen (WHO/CDC)
+## Academic Integrity
+
+"Academic integrity is a core institutional value at Yale. It means, among other things,
+truth in presentation, diligence and precision in citing works and ideas we
+have used, and acknowledging our collaborations with others. In view of our
+commitment to maintaining the highest standards of academic integrity, the
+Graduate School Code of Conduct specifically prohibits the following forms of
+behavior: cheating on examinations, problem sets and all other forms of assessment; falsification and/or fabrication of data; plagiarism, that is, the failure in a dissertation,
+essay or other written exercise to acknowledge ideas, research, or language
+taken from others; and multiple submission of the same work without obtaining
+explicit written permission from both instructors before the material is
+submitted. Students found guilty of violations of academic integrity are subject to one or more of the following penalties: written reprimand, probation, suspension (noted on a student's transcript) or dismissal (noted on a student's transcript).
+
+## 
