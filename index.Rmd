@@ -101,9 +101,9 @@ Readings will be posted to the Yale Canvas website. Readings will consist of a m
 
 ![](Slides/GETTING%20STARTED/Slide2.JPG){width="346"}
 
--   Step 2: Join the Vaccine Evaluation Course workspace by clicking this [link](https://rstudio.cloud/spaces/154746/join?access_code=5dTVayuwfwSP1FV2N1iISxhL9smlamBtZhHqq%2BX4)
+-   Step 2: Join the Public Health Surveillance Course workspace by clicking this [link](https://rstudio.cloud/spaces/208563/join?access_code=hGXArVpny2T3PnpEYngdnSlhIiM9Wppan6cBI9Gc)
 
--   Step 3: Access the Vaccine Evaluation Course Workspace
+-   Step 3: Access the Public Health Surveillance Course Workspace
 
     ![](Slides/GETTING%20STARTED/Slide4.JPG){width="580"}
 
