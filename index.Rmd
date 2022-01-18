@@ -37,7 +37,7 @@ As graduate students in a professional training program, the goal is to arm you 
 
 -   Basic familiarity with statistical principles (including linear and Poisson regression) is highly recommended.
 
-## Course learning objectives 
+## Course learning objectives
 
 *After successfully completing this course, you should be able to:*
 
@@ -55,13 +55,13 @@ As graduate students in a professional training program, the goal is to arm you 
 
 Main Instructor: Dan Weinberger, PhD, Associate Professor of Epidemiology (EMD)
 
-F: Jiye Kwon, MPH: PhD student (EMD)
+TF: Jiye Kwon, MPH: PhD student (EMD)
 
 ### Guest lectures
 
 **Jim Meek and Kimberly Yousey-Hindes**, Yale Emerging Infections Program.
 
-**Farzad Mostashari**, Formerly New York City Health Department; former deputy national coordinator for health IT for the US government; Currently CEO Aledade Health.
+**Dr. Farzad Mostashari**, Formerly New York City Health Department; former deputy national coordinator for health IT for the US government; Currently CEO Aledade Health.
 
 **Dr. Gregg Gonsalves**, YSPH/EMD
 
@@ -73,10 +73,9 @@ F: Jiye Kwon, MPH: PhD student (EMD)
 
 **Stephanie Perniciaro,** MPH, PhD: Associate Research Scientist at YSPH
 
-## Components of grades 
+## Components of grades
 
--   Assignments 4x: 90% of grade (1,2,4 worth 25% each;
-    assignment #3 worth 15%)
+-   Assignments 4x: 90% of grade (1,2,4 worth 25% each; assignment #3 worth 15%)
 
 -   Attendance and participation (10%)
 
@@ -86,16 +85,13 @@ F: Jiye Kwon, MPH: PhD student (EMD)
 
 There is no textbook for the course. The final part of the course on evaluating interventions will closely follow the material developed for a draft WHO guidance document on the use of administrative data for evaluating the impact of pneumococcal conjugate vaccines. That text can be accessed [here](https://danweinberger.github.io/who-guidance-materials/).
 
-Readings will be posted to the Yale Canvas website. Readings will consist of a mix of
-journal articles, MMWR reports, and book chapters. Good additional references include
+Readings will be posted to the Yale Canvas website. Readings will consist of a mix of journal articles, MMWR reports, and book chapters. Good additional references include
 
 *Infectious disease surveillance* by M'ikanatha, Lynfield, Van Beneden, and de Valk;
 
-*The Handbook of Biosurveillance*
-(available for free and online through the Yale library),
+*The Handbook of Biosurveillance* (available for free and online through the Yale library),
 
-*Spatial and Syndromic Suveillance for Public
-Health* by Lawson and Kleinman.
+*Spatial and Syndromic Suveillance for Public Health* by Lawson and Kleinman.
 
 ## Getting started in Rstudio.cloud
 
@@ -127,15 +123,6 @@ Health* by Lawson and Kleinman.
 
 ## Academic Integrity
 
-"Academic integrity is a core institutional value at Yale. It means, among other things,
-truth in presentation, diligence and precision in citing works and ideas we
-have used, and acknowledging our collaborations with others. In view of our
-commitment to maintaining the highest standards of academic integrity, the
-Graduate School Code of Conduct specifically prohibits the following forms of
-behavior: cheating on examinations, problem sets and all other forms of assessment; falsification and/or fabrication of data; plagiarism, that is, the failure in a dissertation,
-essay or other written exercise to acknowledge ideas, research, or language
-taken from others; and multiple submission of the same work without obtaining
-explicit written permission from both instructors before the material is
-submitted. Students found guilty of violations of academic integrity are subject to one or more of the following penalties: written reprimand, probation, suspension (noted on a student's transcript) or dismissal (noted on a student's transcript).
+"Academic integrity is a core institutional value at Yale. It means, among other things, truth in presentation, diligence and precision in citing works and ideas we have used, and acknowledging our collaborations with others. In view of our commitment to maintaining the highest standards of academic integrity, the Graduate School Code of Conduct specifically prohibits the following forms of behavior: cheating on examinations, problem sets and all other forms of assessment; falsification and/or fabrication of data; plagiarism, that is, the failure in a dissertation, essay or other written exercise to acknowledge ideas, research, or language taken from others; and multiple submission of the same work without obtaining explicit written permission from both instructors before the material is submitted. Students found guilty of violations of academic integrity are subject to one or more of the following penalties: written reprimand, probation, suspension (noted on a student's transcript) or dismissal (noted on a student's transcript).
 
 ## 
