@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Public Health Surveillance"
+title: "Introduction to Public Health Surveillance 2023"
 output:
   rmdformats::readthedown:
     code_folding: hide
@@ -22,10 +22,6 @@ Surveillance is one of the fundamental activities of public health organizations
 Methods modules will be structured as follows: we will have a lecture to introduce the topic. We will then go through some worked examples as a group, going through the code in detail. We will then have a session where you go through in groups and complete an analysis from end-to-end in class, with the instructors circulating to help troubleshoot coding and analysis issues. You will then have a take-home problems on the same topic that you will complete individually.
 
 Several statistical packages, including R and SATSCAN will be used in hands-on demonstrations and homework assignments. We will use the RStudio.Cloud platform, which is a web-based version of RStudio. You are also welcome to run the code locally on your computer or on myapps.yale.edu. All code can be downloaded from Github <https://github.com/YalePublicHealthSurveillance>
-
-## COVID Policy
-
-The situation remains fluid, and we will adapt as needed. As dictated by YSPH, the first 4 class sessions will be help via ZOOM. For subsequent sessions, we will have in-person sessions, and it would be great if you come to the classroom. Please do not come to class in person if you have any possible COVID symptoms. Given the expectation that some people will be isolating/quarantined during the semester or prefer not to come in person, all sessions will also be simulcast on ZOOM, and videos will be archived on Canvas.
 
 ## My teaching philosophy
 
@@ -59,25 +55,22 @@ TF: Jiye Kwon, MPH: PhD student (EMD)
 
 ### Guest lectures
 
-**Jim Meek and Kimberly Yousey-Hindes**, Yale Emerging Infections Program.
+**Stepanie Perniciaro**, Yale Emerging Infections Program.
 
-**Dr. Farzad Mostashari**, Formerly New York City Health Department; former deputy national coordinator for health IT for the US government; Currently CEO Aledade Health.
+**Don Olson**, Formerly New York City Health Department of Health and Mental Hygiene
 
-**Dr. Gregg Gonsalves**, YSPH/EMD
+**Laura Bothwell**, YSPH/EMD
 
 **Dr. Nathan Grubaugh**, YSPH/EMD
 
-**Dr. Kayoko Shioda**, DVM, PhD; Postdoc at Emory Rollins School of Public Health
+**Dr. Kayoko Shioda**, Emory Rollins School of Public Health
 
-**Kelsie Cassell**, MPH, PhD student at YSPH
-
-**Stephanie Perniciaro,** MPH, PhD: Associate Research Scientist at YSPH
 
 ## Components of grades
 
--   Assignments 4x: 90% of grade (1,2,4 worth 25% each; assignment #3 worth 15%)
+-   Assignments 4x: 90% of grade (1,2,34 worth 20% each; assignment #5 worth 15%)
 
--   Attendance and participation (10%)
+-   Attendance and participation (5%)
 
 ### 
 
@@ -101,7 +94,7 @@ Readings will be posted to the Yale Canvas website. Readings will consist of a m
 
 ![](Slides/GETTING%20STARTED/Slide2.JPG){width="346"}
 
--   Step 2: Join the Public Health Surveillance Course workspace by clicking this [link](https://rstudio.cloud/spaces/208563/join?access_code=hGXArVpny2T3PnpEYngdnSlhIiM9Wppan6cBI9Gc)
+-   Step 2: Join the Public Health Surveillance Course workspace by clicking this [link](https://posit.cloud/spaces/325019/join?access_code=zO4h0cvgKHSXkkm1A5gMviw13AREAoDGd6pPb-eu)
 
 -   Step 3: Access the Public Health Surveillance Course Workspace
 
