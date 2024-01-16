@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Public Health Surveillance 2023"
+title: "Introduction to Public Health Surveillance"
 output:
   rmdformats::readthedown:
     code_folding: hide
@@ -51,7 +51,7 @@ As graduate students in a professional training program, the goal is to arm you 
 
 Main Instructor: Dan Weinberger, PhD, Associate Professor of Epidemiology (EMD)
 
-TF: Jiye Kwon, MPH: PhD student (EMD)
+TF: Elisabeth (Zoe) Nelson, MPH: PhD student (EMD)
 
 ### Guest lectures
 
@@ -59,16 +59,14 @@ TF: Jiye Kwon, MPH: PhD student (EMD)
 
 **Don Olson**, Formerly New York City Health Department of Health and Mental Hygiene
 
-**Laura Bothwell**, YSPH/EMD
-
 **Dr. Nathan Grubaugh**, YSPH/EMD
 
-**Dr. Kayoko Shioda**, Emory Rollins School of Public Health
+**Dr. Kayoko Shioda**, Boston University School of Public Health
 
 
 ## Components of grades
 
--   Assignments 4x: 90% of grade (1,2,34 worth 20% each; assignment #5 worth 15%)
+-   Assignments 5x: 90% of grade (1,2,34 worth 20% each; assignment #5 worth 15%)
 
 -   Attendance and participation (5%)
 
@@ -94,7 +92,7 @@ Readings will be posted to the Yale Canvas website. Readings will consist of a m
 
 ![](Slides/GETTING%20STARTED/Slide2.JPG){width="346"}
 
--   Step 2: Join the Public Health Surveillance Course workspace by clicking this [link](https://posit.cloud/spaces/325019/join?access_code=zO4h0cvgKHSXkkm1A5gMviw13AREAoDGd6pPb-eu)
+-   Step 2: Join the Public Health Surveillance Course workspace by clicking this [link](https://posit.cloud/spaces/466918/join?access_code=LIKdzqKs57--tZ-nLTvsbYFF6soRlLlsEvuOFfRH)
 
 -   Step 3: Access the Public Health Surveillance Course Workspace
 
